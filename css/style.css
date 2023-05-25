@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -19,7 +19,7 @@ body {
     max-width: 920px;
     border: 1px solid black;
     margin: auto;
-    text-align: center;
+  /*  text-align: center;*/
 }
 
 .title {
@@ -32,7 +32,12 @@ body {
 }
 
 .card {
-    width: 33,33%
+    float: left;
+    width: 33,33%;
     border: 1px solid black;
-    
 }
+
+.card img{
+    float: left;
+}
+
