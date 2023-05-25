@@ -36,8 +36,10 @@ body {
 
 .box_card {
     float: left;
-    width:290px;
+    width: 33.33%;  /*OCCUPO TUTTO LO SPAZIO IN LARGHEZZA CON LE CARD*/
+    background-color: black;
     margin-bottom: 30px; /*STACCA LE DUE RIGHE DI CARDS*/
+    border: 8px solid white;
 }
 
 .box_card img{
@@ -48,8 +50,7 @@ body {
 .box_data {
     height: 70px;
     float: left;
-    padding: 10px 20px 0 10px; /*DISTANZIA IL TESTO NELLE CARD*/
-    background-color: black;
+    padding: 8px 20px 0 10px; /*DISTANZIA IL TESTO NELLE CARD*/
     color: white;
 }
 
@@ -60,3 +61,4 @@ body {
 .box_data :last-child {
     color: rgb(39, 171, 231);
 }
+
